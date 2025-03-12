@@ -431,8 +431,8 @@ header nav .nav:hover::after {
 .feedback-container {
   background: #ffffffad;
   backdrop-filter: blur(50px);
-  width: 300px; 
-  padding: 20px;
+  width: 600px; 
+  padding: 40px;
   border: 1px solid #ccc;
   box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
 }
