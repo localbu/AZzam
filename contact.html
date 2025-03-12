@@ -17,7 +17,7 @@
             <a href="#" class="nav">Home</a>
             <div class="dropdown" data-dropdown>
                 <button href="#" class="nav" data-dropdown-button>
-                    Project 
+                    Project
                     <i class='bx bx-chevron-down'></i>
                 </button>
                 <div class="dropdown-content" id="dropdownContent">
@@ -36,36 +36,25 @@
         </div>
     </header>
     <main>
-        <section id="home">
-            <div class="home-wrapper">
-                <div class="content">
-                    <!-- foto -->
-                    <div class="photo">
+        <section id="contact">
+            <div class="feedback-container">
+                <h2>SEND FEEDBACK</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
                     </div>
-                    <!-- text nama sama job -->
-                    <div class="text">
-                        <h1 class="title">Azzam Maulana Dzakwan</h1>
-                        <p class="subtitle">Software Engineer</p>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write your feedback..." rows="5"
+                            required></textarea>
                     </div>
-                    <!-- social media -->
-                    <div class="social-media">
-                        <a href="">
-                            <div class="linkedin">
-                                <i class='bx bxl-linkedin'></i>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="instagram">
-                                <i class='bx bxl-instagram'></i>
-                            </div>
-                        </a>
-                        <a href="">
-                            <div class="github">
-                                <i class='bx bxl-github'></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+
         </section>
     </main>
     <script src="asset/js/script.js"></script>
