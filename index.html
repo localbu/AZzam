@@ -17,7 +17,7 @@
             <a href="#" class="nav">Home</a>
             <div class="dropdown" data-dropdown>
                 <button href="#" class="nav" data-dropdown-button>
-                    Project 
+                    Project
                     <i class='bx bx-chevron-down'></i>
                 </button>
                 <div class="dropdown-content" id="dropdownContent">
@@ -67,6 +67,46 @@
                     </div>
                 </div>
         </section>
+        <section class="about-section">
+        <div class="container">
+            <h1 class="fade-in">Hi, I'm Azzam Maulana Dzakwan 👋</h1>
+            <p class="fade-in">A <span class="highlight">Full Stack Developer</span> specializing in <span class="highlight">Backend Development</span> and <span class="highlight">Frontend Development</span>. Passionate about building scalable, efficient, and user-friendly applications.</p>
+            
+            <div class="fade-in">
+                <h2>My Skills 💻</h2>
+                <div class="skill-box" onclick="openModal('Backend Development', 'Expert in building scalable and secure backend systems.')">
+                    Backend Development
+                </div>
+                <div class="skill-box" onclick="openModal('Frontend Development', 'Creating user-friendly interfaces with modern frameworks.')">
+                    Frontend Development
+                </div>
+                <div class="skill-box" onclick="openModal('REST API', 'Building and optimizing RESTful APIs for seamless integration.')">
+                    REST API
+                </div>
+                <div class="skill-box" onclick="openModal('Database Management', 'Efficient database structuring and optimization techniques.')">
+                    Database Management
+                </div>
+                <div class="skill-box" onclick="openModal('Authentication & Security', 'Implementing robust authentication and security protocols.')">
+                    Authentication & Security
+                </div>
+                <div class="skill-box" onclick="openModal('Scalability & Performance', 'Optimizing applications for high performance and scalability.')">
+                    Scalability & Performance
+                </div>
+                <div class="skill-box" onclick="openModal('Clean & Maintainable Code', 'Writing readable, maintainable, and efficient code.')">
+                    Clean & Maintainable Code
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div id="skillModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
     </main>
     <script src="asset/js/script.js"></script>
 </body>
